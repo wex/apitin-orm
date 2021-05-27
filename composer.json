@@ -10,11 +10,15 @@
     ],
     "license": "MIT",
     "require": {
-        "php": ">=8.0.0"
+        "php": ">=8.0.0",
+        "apitin/cache": "1.*"
     },
     "autoload": {
         "psr-4": {
             "Apitin\\ORM\\": "src/"
-        }
+        },
+        "files": [
+            "src/functions.inc.php"
+        ]
     }
 }
