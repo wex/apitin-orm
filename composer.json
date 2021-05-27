@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Apitin\\ORM\\": "src/"
+            "Apitin\\Orm\\": "src/"
         },
         "files": [
             "src/functions.inc.php"

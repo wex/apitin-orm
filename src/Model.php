@@ -17,6 +17,8 @@ abstract class Model
 
     public function getFields(): array
     {
-        return [];
+        return static::cache('columns', function() {
+            return getColumns($this);
+        });
     }
 }
